@@ -18,8 +18,8 @@ export default function ToggleButton( { form } ) {
 	};
 
 	const data = window.ncsbcData || {};
-	const showLabel = data.showLabel || 'Show address billing fields';
-	const hideLabel = data.hideLabel || 'Hide address billing fields';
+	const showLabel = data.showLabel || 'Show optional address fields';
+	const hideLabel = data.hideLabel || 'Hide optional address fields';
 
 	return (
 		<button

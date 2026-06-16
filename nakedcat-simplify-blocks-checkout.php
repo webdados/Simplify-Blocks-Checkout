@@ -49,8 +49,8 @@ add_action(
 			'ncsbc-checkout',
 			'ncsbcData',
 			array(
-				'showLabel' => __( 'Show address billing fields', 'simplify-blocks-checkout' ),
-				'hideLabel' => __( 'Hide address billing fields', 'simplify-blocks-checkout' ),
+				'showLabel' => __( 'Show optional address fields', 'simplify-blocks-checkout' ),
+				'hideLabel' => __( 'Hide optional address fields', 'simplify-blocks-checkout' ),
 			)
 		);
 
