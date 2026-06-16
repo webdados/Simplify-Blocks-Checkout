@@ -1,0 +1,12 @@
+{
+	"name": "nakedcat-simplify-blocks-checkout",
+	"version": "0.1.0",
+	"description": "Hides non-necessary billing address fields and makes them optional, only shown if the user wants to",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0"
+	}
+}

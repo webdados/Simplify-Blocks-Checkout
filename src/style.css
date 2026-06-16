@@ -1,0 +1,16 @@
+.wc-block-components-address-form.ncsbc-address-hidden
+	.wc-block-components-address-form__address_1,
+.wc-block-components-address-form.ncsbc-address-hidden
+	.wc-block-components-address-form__address_2,
+.wc-block-components-address-form.ncsbc-address-hidden
+	.wc-block-components-address-form__city,
+.wc-block-components-address-form.ncsbc-address-hidden
+	.wc-block-components-address-form__postcode,
+.wc-block-components-address-form.ncsbc-address-hidden
+	.wc-block-components-address-form__state {
+	display: none;
+}
+
+#ncsbc-toggle-container {
+	margin: 0.75rem 0;
+}
