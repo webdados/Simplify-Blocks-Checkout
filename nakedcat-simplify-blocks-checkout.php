@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 add_action(
 	'wp_enqueue_scripts',
 	function () {
-		if ( ! is_checkout() ) {
+		if ( ! is_checkout() && ! has_block( 'woocommerce/checkout' ) ) {
 			return;
 		}
 
